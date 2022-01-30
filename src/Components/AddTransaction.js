@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { useContext } from "react/cjs/react.development";
+import React, { useState } from "react";
+import { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalState";
 
 export const AddTransaction = () => {

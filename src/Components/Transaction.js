@@ -1,4 +1,4 @@
-import { useContext } from "react/cjs/react.development";
+import React, { useContext } from "react";
 import { GlobalContext } from "../Context/GlobalState";
 
 export const Transaction = ({ transaction }) => {
